@@ -18,7 +18,7 @@ export class Header extends Component {
                         <div className="row">
                             <div className="col-lg-7">
                                 <div className="banner-content">
-                                    <h2 className="title">Best Way To Protect Virus (COVID-19)</h2>
+                                    <h2 className="title">Lorem ipsum dolorum ques</h2>
                                     <p>Debitis laudantium, modi ad similique corporis expedita repellendus odio, nihil nemo quaerat velit sed eaque consectetur rerum voluptates perspiciatis voluptatum illum aperiam dolorum quas ex mollitia aliquam! Ipsam beatae recusandae maiores</p>
                                     <div className="banner-btn">
                                         <a href="#0" className="btn-white-two"><i className="fas fa-user"></i>How To Protect</a>
