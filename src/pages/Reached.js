@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Reached extends Component {
+class Reached extends Component {
     render() {
         return (
             <section className="contagion-section ptb-120">

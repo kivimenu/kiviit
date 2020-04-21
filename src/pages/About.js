@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class About extends Component {
+class About extends Component {
     render() {
         return (
             <section className="about-section pd-t-120" id="about">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class CallAction extends Component {
+class CallAction extends Component {
     render() {
         return (
             <section className="call-to-action-section call-to-action-section-two call-to-action-section-three ptb-120" id="contact">
