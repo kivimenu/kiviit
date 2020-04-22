@@ -27,7 +27,7 @@ function App() {
       <PreLoader />
       <Navbar />
       <Header />
-      <a href="#" class="scrollToTop"><i class="fa fa-angle-double-up"></i></a>
+      <a href="#root" style={{top: "85%"}}className="scrollToTop"><i className="fa fa-angle-double-up"></i></a>
       <About />
       <Service />
       <Reached />
