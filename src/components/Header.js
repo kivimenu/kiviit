@@ -5,13 +5,13 @@ class Header extends Component {
         return (
             <section className="banner-section">
                 <div className="banner-element">
-                    <img src="assets/images/banner/corona1.png" alt="banner" />
+                    <img src={require('../img/banner5.png')}  alt="banner" />
                 </div>
                 <div className="banner-element-two">
-                    <img src="assets/images/banner/corona1.png" alt="banner" />
+                    <img src={require('../img/banner2.png')}  alt="banner" />
                 </div>
                 <div className="banner-element-three">
-                    <img src="assets/images/banner/corona1.png" alt="banner" />
+                    <img src={require('../img/banner1.png')}  alt="banner" />
                 </div>
                 <div className="container">
                     <div className="row">

@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+https://techno-pie.com/
+http://iamubaidah.com/corlen/index.html#0
 ## Available Scripts
 In the project directory, you can run:
 
