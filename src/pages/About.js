@@ -9,7 +9,7 @@ class About extends Component {
                         <div className="col-lg-5 mrb-30">
                             <div className="about-thumb-area">
                                 <div className="about-thumb">
-                                    <img src="assets/images/about.jpg" alt="about" />
+                                    <img src={require('../img/downbanner.png')} alt="about" />
                                 </div>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ class Navbar extends Component {
                         <div className="container">
                             <div className="header-menu-content">
                                 <nav className="navbar navbar-expand-lg p-0" >
-                                    <a className="site-logo site-title" href="index.html"><img width="50px" src={require('../img/logo.png')} alt="site-logo" />Kivi IT</a>
+                                    <a className="site-logo site-title" href="index.html"><img width="50px" src={require('../img/logo.png')} alt="site-logo" /></a>
                                     <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="fas fa-bars"></span>
                                     </button>
