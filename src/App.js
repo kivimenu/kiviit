@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 //components
 import Navbar from './components/Navbar';
@@ -21,29 +21,45 @@ import Blog from './pages/Blog';
 import Subscribe from './pages/Subscribe';
 import Copyright from './pages/Copyright';
 
-function App() {
-  return (
-    <div className="App">
-      <PreLoader />
-      <Navbar />
-      <Header />
-      <a href="#root" style={{top: "85%"}}className="scrollToTop"><i className="fa fa-angle-double-up"></i></a>
-      <About />
-      <Service />
-      <Reached />
-      <CallAction />
-      <WhatWeDo />
-      <Unnamed />
-      <Team />
-      <Process />
-      <FAQ />
-      <Brand />
-      <Blog />
-      <Subscribe />
-      <KFooter />
-      <Copyright />
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      toggle: false
+    };
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+  }
+
+  toggleNavbar() {
+    this.setState({
+      toggle: !this.state.toggle
+    });
+  }
+
+  render() {
+    return  (
+      <div className="App">
+        <PreLoader />
+        <Navbar toggleState={this.state.toggle} toggleNavbar={this.toggleNavbar} />
+        <Header />
+        <a href="#root" style={{ top: "85%" }} className="scrollToTop"><i className="fa fa-angle-double-up"></i></a>
+        <About />
+        <Service />
+        <Reached />
+        <CallAction />
+        <WhatWeDo />
+        <Unnamed />
+        <Team />
+        <Process />
+        <FAQ />
+        <Brand />
+        <Blog />
+        <Subscribe />
+        <KFooter />
+        <Copyright />
+      </div>
+    );
+  }
 }
 
 export default App;

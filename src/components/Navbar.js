@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 class Navbar extends Component {
+
     render() {
         return (
             <div className="header-section header-section-two">
@@ -9,11 +10,11 @@ class Navbar extends Component {
                         <div className="container">
                             <div className="header-menu-content">
                                 <nav className="navbar navbar-expand-lg p-0" >
-                                    <a className="site-logo site-title" href="index.html"><img width="50px" src={require('../img/logo.png')} alt="site-logo" /></a>
-                                    <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <a className="site-logo site-title" href="index.html"><img  src={require('../img/logo2.png')} alt="site-logo" /></a>
+                                    <button onClick={this.props.toggleNavbar} className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="fas fa-bars"></span>
                                     </button>
-                                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <div className={"collapse navbar-collapse" + (this.props.toggleState ? " show" : "")} id="navbarSupportedContent">
                                         <ul className="navbar-nav main-menu ml-auto">
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="#about">About</a></li>
