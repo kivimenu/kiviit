@@ -21,9 +21,9 @@ export class Projects extends Component {
                         <li data-group="image">Image</li>
                     </ul>
 
-                    <ul className="list-items-container row images-loaded shuffle" style="height: 1069.17px; transition: height 250ms ease-out 0s;">
+                    <ul className="list-items-container row images-loaded shuffle" style={{height: "1069.17px", transition: "height 250ms ease-out 0s"}}>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all slideshow" style="position: absolute; top: 0px; left: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all slideshow" style={{position: "absolute", top: "0px", left: "0px", transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)", opacity: "1", transition:" transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p1-1.jpg" alt="p1" />
                                 <figcaption>
@@ -36,7 +36,7 @@ export class Projects extends Component {
                             </figure>
                         </li>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all video" style="position: absolute; top: 0px; left: 0px; transform: translate3d(360px, 0px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all video" style={{position: "absolute", top: "0px", left: "0px", transform: "translate3d(360px, 0px, 0px) scale3d(1, 1, 1)", opacity: "1", transition: "transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p2-2.jpg" alt="p2" />
                                 <figcaption>
@@ -49,7 +49,7 @@ export class Projects extends Component {
                             </figure>
                         </li>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style="position: absolute; top: 0px; left: 0px; transform: translate3d(720px, 0px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style={{position: "absolute", top:" 0px", left: "0px", transform: "translate3d(720px, 0px, 0px) scale3d(1, 1, 1)", opacity: "1", transition: "transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p3-3.jpg" alt="p3" />
                                 <figcaption>
@@ -62,7 +62,7 @@ export class Projects extends Component {
                             </figure>
                         </li>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all slideshow" style="position: absolute; top: 0px; left: 0px; transform: translate3d(360px, 294px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all slideshow" style={{position: "absolute", top: "0px", left: "0px", transform: "translate3d(360px, 294px, 0px) scale3d(1, 1, 1)", opacity: "1", transition: "transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p4-4.jpg" alt="p4" />
                                 <figcaption>
@@ -75,7 +75,7 @@ export class Projects extends Component {
                             </figure>
                         </li>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all video" style="position: absolute; top: 0px; left: 0px; transform: translate3d(0px, 443px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all video" style={{position: "absolute", top: "0px", left: "0px", transform: "translate3d(0px, 443px, 0px) scale3d(1, 1, 1)", opacity: "1", transition: "transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p5-5.jpg" alt="p5" />
                                 <figcaption>
@@ -88,7 +88,7 @@ export class Projects extends Component {
                             </figure>
                         </li>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style="position: absolute; top: 0px; left: 0px; transform: translate3d(720px, 551px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style={{position: "absolute", top:" 0px", left: "0px", transform: "translate3d(720px, 551px, 0px) scale3d(1, 1, 1)", opacity: "1", transition: "transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p6-6.jpg" alt="p6" />
                                 <figcaption>
@@ -101,7 +101,7 @@ export class Projects extends Component {
                             </figure>
                         </li>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style="position: absolute; top: 0px; left: 0px; transform: translate3d(720px, 801px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style={{position: "absolute", top: "0px", left: "0px", transform: "translate3d(720px, 801px, 0px) scale3d(1, 1, 1)", opacity: "1", transition: "transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p7-7.jpg" alt="p6" />
                                 <figcaption>
@@ -114,7 +114,7 @@ export class Projects extends Component {
                             </figure>
                         </li>
 
-                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style="position: absolute; top: 0px; left: 0px; transform: translate3d(360px, 818px, 0px) scale3d(1, 1, 1); opacity: 1; transition: transform 250ms ease-out 0s, opacity 250ms ease-out 0s;">
+                        <li className="col-md-4 list-item shuffle-item filtered" data-groups="all image" style={{position: "absolute", top: "0px", left: "0px", transform: "translate3d(360px, 818px, 0px) scale3d(1, 1, 1)", opacity: "1", transition: "transform 250ms ease-out 0s, opacity 250ms ease-out 0s"}}>
                             <figure>
                                 <img src="assets/images/p8-8.jpg" alt="p6" />
                                 <figcaption>
