@@ -8,9 +8,7 @@ import KFooter from './components/KFooter';
 // pages
 import PreLoader from './pages/Preloader'
 import About from './pages/About';
-import Service from './pages/Service';
-import Reached from './pages/Reached';
-import CallAction from './pages/CallAction';
+import Projects from './pages/Projects';
 import WhatWeDo from './pages/WhatWeDo';
 import Unnamed from './pages/Unnamed';
 import Team from './pages/Team';
@@ -20,6 +18,7 @@ import Brand from './pages/Brand';
 import Blog from './pages/Blog';
 import Subscribe from './pages/Subscribe';
 import Copyright from './pages/Copyright';
+import Services from './pages/Services';
 
 class App extends Component {
   constructor(props) {
@@ -39,24 +38,22 @@ class App extends Component {
   render() {
     return  (
       <div className="App">
-        <PreLoader />
         <Navbar toggleState={this.state.toggle} toggleNavbar={this.toggleNavbar} />
         <Header />
-        <a href="#root" style={{ top: "85%" }} className="scrollToTop"><i className="fa fa-angle-double-up"></i></a>
         <About />
-        <Service />
-        <Reached />
-        <CallAction />
+        <Services />
+        <Process />
+        <Projects />
+        {/*
         <WhatWeDo />
         <Unnamed />
         <Team />
-        <Process />
         <FAQ />
         <Brand />
         <Blog />
         <Subscribe />
         <KFooter />
-        <Copyright />
+        <Copyright /> */}
       </div>
     );
   }
