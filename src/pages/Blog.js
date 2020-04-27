@@ -3,59 +3,77 @@ import React, { Component } from 'react'
 class Blog extends Component {
     render() {
         return (
-            <section className="blog-section ptb-120" id="blog">
+            <section className="section section-dark section-blog" id="blog">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-8 text-center">
-                            <div className="section-header">
-                                <span className="title-border">
-                                    <img src="assets/images/banner/corona1.png" alt="shape" />
-                                </span>
-                                <h2 className="section-title">Our Latest Blog</h2>
-                                <p>Suspendisse Lectus Vivamus Donec Turpis Egestas, Sed At Massa Orci, Et Nibh Massa Augue Fermentum Arcu, Potenti Tellus Praesent Integer Aliquam.</p>
-                            </div>
-                        </div>
+                    <div className="section-head">
+                        <span>My Personal</span>
+                        <h2>Blog</h2>
                     </div>
-                    <div className="row justify-content-center ml-b-30">
-                        <div className="col-lg-4 col-md-6 col-sm-8 mrb-30">
-                            <div className="blog-item text-center">
-                                <div className="blog-thumb">
-                                    <img src="assets/images/blog/blog-1.jpg" alt="blog" />
-                                </div>
-                                <div className="blog-content">
-                                    <h3 className="title"><a href="#0">Eligendi error impedit cumque facere dignissimos incidunt</a></h3>
-                                    <div className="blog-btn">
-                                        <a href="#0" className="btn-white">Read More<i className="flaticon-right"></i></a>
+                    <div className="mt-5">
+                        <div className="swiper-container swiper-blog swiper-container-initialized swiper-container-horizontal">
+                            <div className="swiper-wrapper" style={{transform: "translate3d(0px, 0px, 0px)"}}>
+                                <a href="#" className="swiper-slide blog-list b-box hover-state d-block mb-4 swiper-slide-active" style={{marginRight: "30px", backgroundPosition: "50% -407px"}}>
+                                    <div className="blog-list--img">
+                                        <img src="assets/images/blog-1.jpg" alt="Blog Image" className="img-fluid" />
+                                        <div className="blog-list--details d-flex justify-content-center align-items-center">
+                                            <div className="blog-list--details-in">
+                                                <p className="blog-by text-white">Alice Joseph</p>
+                                                <span className="blog-duration text-white">2 Mins Read</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-8 mrb-30">
-                            <div className="blog-item text-center">
-                                <div className="blog-thumb">
-                                    <img src="assets/images/blog/blog-2.jpg" alt="blog" />
-                                </div>
-                                <div className="blog-content">
-                                    <h3 className="title"><a href="#0">Accusamus laudantium nisi laborum aut dicta unde</a></h3>
-                                    <div className="blog-btn">
-                                        <a href="#0" className="btn-white">Read More<i className="flaticon-right"></i></a>
+                                    <div className="blog-list--desc p-3">
+                                        <p>10 tips for drawing with coloured pencils</p>
+                                        <span className="font-weight-bold mt-3 d-block text-center blog-cat">Design</span>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-8 mrb-30">
-                            <div className="blog-item text-center">
-                                <div className="blog-thumb">
-                                    <img src="assets/images/blog/blog-3.jpg" alt="blog" />
-                                </div>
-                                <div className="blog-content">
-                                    <h3 className="title"><a href="#0">Quae adipisci voluptatem li bero facere vitae nesciunt</a></h3>
-                                    <div className="blog-btn">
-                                        <a href="#0" className="btn-white">Read More<i className="flaticon-right"></i></a>
+                                </a>
+                                <a href="#" className="swiper-slide blog-list b-box hover-state d-block mb-4 swiper-slide-next" style={{marginRight: "30px", backgroundPosition: "50% -407px"}}>
+                                    <div className="blog-list--img">
+                                        <img src="assets/images/blog-2.jpg" alt="Blog Image" className="img-fluid" />
+                                        <div className="blog-list--details d-flex justify-content-center align-items-center">
+                                            <div className="blog-list--details-in">
+                                                <p className="blog-by text-white">Alice Joseph</p>
+                                                <span className="blog-duration text-white">2 Mins Read</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                    <div className="blog-list--desc p-3">
+                                        <p>The single greatest gift to get your friend who always travels</p>
+                                        <span className="font-weight-bold mt-3 d-block text-center blog-cat">Design</span>
+                                    </div>
+                                </a>
+                                <a href="#" className="swiper-slide blog-list b-box hover-state d-block mb-4" style={{marginRight: "30px", backgroundPosition: "50% -407px"}}>
+                                    <div className="blog-list--img">
+                                        <img src="assets/images/blog-3.jpg" alt="Blog Image" className="img-fluid" />
+                                        <div className="blog-list--details d-flex justify-content-center align-items-center">
+                                            <div className="blog-list--details-in">
+                                                <p className="blog-by text-white">Alice Joseph</p>
+                                                <span className="blog-duration text-white">2 Mins Read</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="blog-list--desc p-3">
+                                        <p>Why all women should eat alone </p>
+                                        <span className="font-weight-bold mt-3 d-block text-center blog-cat">Design</span>
+                                    </div>
+                                </a>
+                                <a href="#" className="swiper-slide blog-list b-box hover-state d-block mb-4" style={{marginRight: "30px", backgroundPosition: "50% -407px"}}>
+                                    <div className="blog-list--img">
+                                        <img src="assets/images/blog-1.jpg" alt="Blog Image" className="img-fluid" />
+                                        <div className="blog-list--details d-flex justify-content-center align-items-center">
+                                            <div className="blog-list--details-in">
+                                                <p className="blog-by text-white">Alice Joseph</p>
+                                                <span className="blog-duration text-white">2 Mins Read</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="blog-list--desc p-3">
+                                        <p>Drawing with coloured pencils</p>
+                                        <span className="font-weight-bold mt-3 d-block text-center blog-cat">Travel</span>
+                                    </div>
+                                </a>
                             </div>
-                        </div>
+                            <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
                     </div>
                 </div>
             </section>

@@ -9,15 +9,11 @@ import KFooter from './components/KFooter';
 import PreLoader from './pages/Preloader'
 import About from './pages/About';
 import Projects from './pages/Projects';
-import WhatWeDo from './pages/WhatWeDo';
 import Unnamed from './pages/Unnamed';
-import Team from './pages/Team';
 import Process from './pages/Process';
-import FAQ from './pages/FAQ';
 import Brand from './pages/Brand';
 import Blog from './pages/Blog';
 import Subscribe from './pages/Subscribe';
-import Copyright from './pages/Copyright';
 import Services from './pages/Services';
 
 class App extends Component {
@@ -36,24 +32,20 @@ class App extends Component {
   }
 
   render() {
-    return  (
+    return (
       <div className="App">
+        <PreLoader />
         <Navbar toggleState={this.state.toggle} toggleNavbar={this.toggleNavbar} />
         <Header />
         <About />
         <Services />
         <Process />
         <Projects />
-        {/*
-        <WhatWeDo />
         <Unnamed />
-        <Team />
-        <FAQ />
-        <Brand />
-        <Blog />
         <Subscribe />
+        <Blog />
+        <Brand />
         <KFooter />
-        <Copyright /> */}
       </div>
     );
   }
