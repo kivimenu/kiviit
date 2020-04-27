@@ -3,18 +3,15 @@ import React, { Component } from 'react'
 class Subscribe extends Component {
     render() {
         return (
-            <section className="call-to-action-section call-to-action-section-two ptb-120">
+            <section className="section section-freelance section-light text-center ">
                 <div className="container">
-                    <div className="row justify-content-between align-items-center ml-b-30">
-                        <div className="col-lg-8 mrb-30">
-                            <div className="call-to-action-content">
-                                <h2 className="title">Subscribe To Our Newslatter</h2>
-                                <p>Natus, quam consectetur. Odio id vitae ipsam accusamus quo aperiam molestias quasi.</p>
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="section-head ">
+                                <h2>Let's work together!</h2>
                             </div>
-                        </div>
-                        <div className="col-lg-4 mrb-30">
-                            <div className="call-to-action-btn">
-                                <a href="#0" className="btn-white-two">Subscribe Now</a>
+                            <div className="mt-5">
+                                <a href="#" className="btn hover-state">Hire Me!</a>
                             </div>
                         </div>
                     </div>

@@ -3,12 +3,9 @@ import React, { Component } from 'react'
 class Preloader extends Component {
     render() {
         return (
-            <div className="preloader">
-                <div className="preloader-inner">
-                    <div className="preloader-icon">
-                        <span></span>
-                        <span></span>
-                    </div>
+            <div id="preloader" class="preloader loaded">
+                <div class="spinner-grow text-dark" role="status">
+                    <span class="sr-only">Loading...</span>
                 </div>
             </div>
 

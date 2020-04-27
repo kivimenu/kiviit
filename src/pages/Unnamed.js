@@ -3,52 +3,65 @@ import React, { Component } from 'react'
 class Unnamed extends Component {
     render() {
         return (
-            <section className="treatment-section pd-t-120">
+            <section className="section section-light section-testimony" id="testimony">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-8 text-center">
-                            <div className="section-header">
-                                <span className="title-border">
-                                    <img src="assets/images/banner/corona1.png" alt="shape" />
-                                </span>
-                                <h2 className="section-title">Medical Treatment</h2>
-                                <p>Suspendisse Lectus Vivamus Donec Turpis Egestas, Sed At Massa Orci, Et Nibh Massa Augue Fermentum Arcu, Potenti Tellus Praesent Integer Aliquam.</p>
-                            </div>
-                        </div>
+                    <div className="section-head text-center">
+                        <span>Kind Words</span>
+                        <h2>testimonial</h2>
                     </div>
-                    <div className="row justify-content-center ml-b-30">
-                        <div className="col-lg-6 mrb-30">
-                            <div className="treatment-item-area ml-b-30">
-                                <div className="treatment-item mrb-30">
-                                    <h3 className="title">Take rest</h3>
-                                    <p>Cumque vitae officia reiciendis suscipit sed natus optio ut expedita ullam maiores veritatis, nobis consequatur impedit.</p>
+                    <div className="row mt-4">
+                        <div className="col-lg-12">
+                            <div className="swiper-container swiper-testimony swiper-container-initialized swiper-container-horizontal">
+                                <div className="swiper-wrapper" style={{transform: "translate3d(0px, 0px, 0px)"}}>
+                                    <div className="swiper-slide single-testimonials swiper-slide-active" style={{width: "1080px", marginRight: "30px", backgroundPosition: "50% -750px"}}>
+                                        <div className="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="assets/images/avatar1.jpg" alt="" className="mx-auto b-box" />
+                                            <p className="mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                            <span className="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="swiper-slide single-testimonials swiper-slide-next" style={{width: "1080px", marginRight: "30px", backgroundPosition: "50% -750px"}}>
+                                        <div className="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="assets/images/avatar1.jpg" alt="" className="mx-auto b-box" />
+                                            <p className="mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin.  Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
+                                            <span className="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="swiper-slide single-testimonials" style={{width: "1080px", marginRight: "30px", backgroundPosition: "50% -750px"}}>
+                                        <div className="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="assets/images/avatar1.jpg" alt="" className="mx-auto b-box" />
+                                            <p className="mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                            <span className="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="swiper-slide single-testimonials" style={{width: "1080px", marginRight: "30px", backgroundPosition: "50% -750px"}}>
+                                        <div className="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="assets/images/avatar1.jpg" alt="" className="mx-auto b-box" />
+                                            <p className="mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                            <span className="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="swiper-slide single-testimonials" style={{width: "1080px", marginRight: "30px", backgroundPosition: "50% -750px"}}>
+                                        <div className="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="assets/images/avatar1.jpg" alt="" className="mx-auto b-box" />
+                                            <p className="mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                            <span className="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div className="treatment-item mrb-30">
-                                    <h3 className="title">Get tips</h3>
-                                    <p>Cumque vitae officia reiciendis suscipit sed natus optio ut expedita ullam maiores veritatis, nobis consequatur impedit.</p>
-                                </div>
-                                <div className="treatment-item mrb-30">
-                                    <h3 className="title">Checkup heart</h3>
-                                    <p>Cumque vitae officia reiciendis suscipit sed natus optio ut expedita ullam maiores veritatis, nobis consequatur impedit.</p>
-                                </div>
-                                <div className="treatment-item mrb-30">
-                                    <h3 className="title">Take treatment</h3>
-                                    <p>Cumque vitae officia reiciendis suscipit sed natus optio ut expedita ullam maiores veritatis, nobis consequatur impedit.</p>
-                                </div>
+                                <div className="swiper-pagination"></div>
+                                <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                            <div className="testimony-nav">
+                                <a href="#" className="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></a>
+                                <a href="#" className="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></a>
                             </div>
-                        </div>
-                        <div className="col-lg-6 mrb-30">
-                            <div className="treatment-area">
-                                <h3 className="title">Self Care</h3>
-                                <p>Minima adipisci ipsum praesentium illo, magni expedita, sed magnam facilis iure animi recusandae quae quaerat cumque, nulla accusantium dolore autem culpa non</p>
-                                <ul className="treatment-list">
-                                    <li>Rest and sleep</li>
-                                    <li>Drink plenty of liquids</li>
-                                    <li>Keep warm</li>
-                                </ul>
-                                <h3 className="title">Treatments</h3>
-                                <p>If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance and tell your health provider of any recent travel or recent contact with travelers.</p>
-                            </div>
+
                         </div>
                     </div>
                 </div>
