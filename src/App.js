@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import './assets/css/custom.css'
+import './assets/css/kivi.css';
+import './assets/css/vendor.css';
+
 //components
 import Navbar from './components/Navbar';
 import Header from './components/Header';
@@ -33,7 +37,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="page-wrapper">
         <PreLoader />
         <Navbar toggleState={this.state.toggle} toggleNavbar={this.toggleNavbar} />
         <Header />
