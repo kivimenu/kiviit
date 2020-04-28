@@ -11,7 +11,7 @@ class About extends Component {
                     </div>
                     <div className="row justify-content-center align-items-center">
                         <div className="col-md-5">
-                            <img className="img-fluid img-thumbnail" src="assets/images/avatar.jpg" alt="About Picture" />
+                            <img className="img-fluid img-thumbnail" src={require("../img/about.png")} alt="About Picture" />
                         </div>
                         <div className="col-md-7">
                             <div className="about-desc">
