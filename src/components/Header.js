@@ -5,7 +5,7 @@ class Header extends Component {
         return (
             <section className="section-home " id="home" style={{backgroundPosition: "50% 0px"}}>
                 <div className="glass">Kivi IT</div>
-                <img src="assets/images/banner.jpg" alt="headers" />
+                {/* <img src="assets/images/banner.jpg" alt="headers" /> */}
             </section>
         )
     }
