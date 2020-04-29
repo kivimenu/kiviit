@@ -31,11 +31,11 @@ class Navbar extends Component {
                                 <li className="nav-item">
                                     <a className="nav-link" href="#services">services</a>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <a className="nav-link" href="#resume">resume</a>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#work">Portfolio</a>
+                                    <a className="nav-link" href="#work">Projects</a>
                                 </li>
 
                                 <li className="nav-item">
