@@ -14,7 +14,7 @@ import PreLoader from './pages/Preloader'
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Unnamed from './pages/Unnamed';
-import Process from './pages/Process';
+// import Process from './pages/Process';
 import Brand from './pages/Brand';
 import Blog from './pages/Blog';
 import Subscribe from './pages/Subscribe';
@@ -43,7 +43,7 @@ class App extends Component {
         <Header />
         <About />
         <Services />
-        <Process />
+        {/* <Process /> */}
         <Projects />
         <Unnamed />
         <Subscribe />
