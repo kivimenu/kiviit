@@ -6,8 +6,8 @@ class Services extends Component {
             <section className="section section-dark section-services" id="services">
                 <div className="container">
                     <div className="section-head">
-                        <span>WHAT I DO</span>
-                        <h2>My Services</h2>
+                        <span>WHAT WE DO</span>
+                        <h2>Services</h2>
                     </div>
 
                     <div className="row">
