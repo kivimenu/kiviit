@@ -575,11 +575,11 @@ b, strong {
     z-index: 1;
 }
 
-.aside-open .aside {
+.asideOpen .aside {
     left: -290px;
 }
 
-.aside-open .page-wrapper {
+.asideOpen .page-wrapper {
     width: 100%;
     margin-left: 0;
 }
@@ -1313,7 +1313,7 @@ figure {
         min-width: 300px;
     }
 
-    .aside-open .aside {
+    .asideOpen .aside {
         left: 0;
     }
 
