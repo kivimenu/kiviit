@@ -19,7 +19,7 @@ class Navbar extends Component {
 
                         <div className="collapse navbar-collapse show" id="navbarCollapse">
                             <div className="about-avatar mb-4">
-                                <img src="assets/images/about.jpg" alt="" className="img-fluid mx-auto d-block shadow-sm rounded-full" />
+                                <img src={require('../img/logo.png')} alt="kiviit logo" className="img-fluid mx-auto d-block shadow-sm rounded-full" />
                             </div>
                             <ul className="navbar-nav mx-auto">
                                 <li className="nav-item active">
