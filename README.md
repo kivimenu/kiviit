@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-https://techno-pie.com/
+
 http://iamubaidah.com/corlen/index.html#0
 ## Available Scripts
 In the project directory, you can run:
 https://www.beingeorge.com/klee/
 ### `npm start`
-
+https://techno-pie.com/
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
