@@ -6,7 +6,7 @@ class Blog extends Component {
             <section className="section section-dark section-blog" id="blog">
                 <div className="container">
                     <div className="section-head">
-                        <span>My Personal</span>
+                        <span>KiviIT Blog</span>
                         <h2>Blog</h2>
                     </div>
                     <div className="mt-5">

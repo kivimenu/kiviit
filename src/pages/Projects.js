@@ -6,8 +6,8 @@ export class Projects extends Component {
             <section className="section section-dark section-work" id="work">
                 <div className="container">
                     <div className="section-head text-center">
-                        <span>Portfolio</span>
-                        <h2>My Works</h2>
+                        <span>Projects</span>
+                        <h2>KiviIT Projects</h2>
                     </div>
                 </div>
 
