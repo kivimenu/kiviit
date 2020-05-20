@@ -37,7 +37,7 @@ class Unnamed extends Component {
                                         </div>
                                     </div> */}
 
-                                    <div className="swiper-slide single-testimonials" style={{width: "1080px", marginRight: "30px", backgroundPosition: "50% -750px"}}>
+                                    {/* <div className="swiper-slide single-testimonials" style={{width: "1080px", marginRight: "30px", backgroundPosition: "50% -750px"}}>
                                         <div className="single-testimonials-in text-center p-4 b-box mx-auto">
                                             <img src="assets/images/avatar1.jpg" alt="" className="mx-auto b-box" />
                                             <p className="mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
@@ -51,7 +51,7 @@ class Unnamed extends Component {
                                             <p className="mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
                                             <span className="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                 </div>
                                 <div className="swiper-pagination"></div>
